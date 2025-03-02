@@ -21,7 +21,7 @@ To write a program to predict the marks scored by a student using the simple lin
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: Abishek Priyan M
-RegisterNumber:  212224240002
+RegisterNumber:  212224240004
 */
 ```
 
