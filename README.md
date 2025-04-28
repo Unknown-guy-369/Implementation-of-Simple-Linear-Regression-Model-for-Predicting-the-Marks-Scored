@@ -9,12 +9,30 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Algorithm
 
-1. Import the standard Libraries.
-2. Set variables for assigning dataset values.
-3. Import linear regression from sklearn.
-4. Assign the points for representing in the graph.
-5. Predict the regression for marks by using the representation of the graph.
-6. Compare the graphs and hence we obtained the linear regression for the given datas.
+1. **Import the necessary libraries and read the dataset.**  
+   - Import `pandas`, `numpy`, `matplotlib.pyplot`, and modules from `sklearn`.
+   - Load the dataset (`student_scores.csv`) and display the first and last few rows.
+
+2. **Prepare the data for training and testing.**  
+   - Separate the dataset into input features `x` (Hours) and output labels `y` (Scores).
+   - Split the data into training and testing sets using `train_test_split`, with a test size of 1/3.
+
+3. **Train the Simple Linear Regression model.**  
+   - Import `LinearRegression` from `sklearn.linear_model`.
+   - Create an object for the Linear Regression model and fit it with the training data.
+
+4. **Predict the results and evaluate the model.**  
+   - Use the trained model to predict scores for the test set.
+   - Calculate performance metrics:  
+     - Mean Squared Error (MSE)
+     - Mean Absolute Error (MAE)
+     - Root Mean Squared Error (RMSE)
+
+5. **Visualize the Training and Testing results.**  
+   - Plot the regression line for both training and test sets using scatter plots and line plots.
+   - Label the axes and add titles to the plots for better understanding.
+
+---
 
 ## Program:
 ```
